@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: sample_production
-  username: sample
-  password: <%= ENV['SAMPLE_DATABASE_PASSWORD'] %>
+  username: tent_manager
+  password: advika@manager
